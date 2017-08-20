@@ -1,0 +1,929 @@
+DEBUG 2017-07-26 23:14:23,834 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-07-26 23:14:23,866 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2017-07-26 23:14:23,906 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.Web.SimpleTaskSystem0726WebModule, SimpleTaskSystem0726.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-26 23:14:23,909 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-26 23:14:23,909 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-26 23:14:23,910 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-26 23:14:23,910 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-26 23:14:23,910 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726DataModule, SimpleTaskSystem0726.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-26 23:14:23,910 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-26 23:14:23,910 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726CoreModule, SimpleTaskSystem0726.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-26 23:14:23,910 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726ApplicationModule, SimpleTaskSystem0726.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-26 23:14:23,910 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726WebApiModule, SimpleTaskSystem0726.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-26 23:14:23,911 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-26 23:14:23,915 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2017-07-26 23:14:24,294 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: SimpleTaskSystem0726.EntityFramework.SimpleTaskSystem0726DbContext, SimpleTaskSystem0726.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-26 23:14:26,728 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2017-07-26 23:14:26,739 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-07-26 23:14:26,741 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-07-26 23:14:26,743 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SimpleTaskSystem0726
+DEBUG 2017-07-26 23:14:26,998 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+WARN  2017-07-26 23:14:35,859 [10   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2017-07-26 23:14:35,875 [10   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2017-07-26 23:47:30,022 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-07-26 23:47:30,036 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2017-07-26 23:47:30,041 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.Web.SimpleTaskSystem0726WebModule, SimpleTaskSystem0726.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-26 23:47:30,043 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-26 23:47:30,044 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-26 23:47:30,044 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-26 23:47:30,044 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-26 23:47:30,044 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726DataModule, SimpleTaskSystem0726.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-26 23:47:30,044 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-26 23:47:30,045 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726CoreModule, SimpleTaskSystem0726.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-26 23:47:30,045 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726ApplicationModule, SimpleTaskSystem0726.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-26 23:47:30,045 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726WebApiModule, SimpleTaskSystem0726.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-26 23:47:30,045 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-26 23:47:30,048 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2017-07-26 23:47:30,337 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: SimpleTaskSystem0726.EntityFramework.SimpleTaskSystem0726DbContext, SimpleTaskSystem0726.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-26 23:47:31,493 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2017-07-26 23:47:31,502 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-07-26 23:47:31,504 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-07-26 23:47:31,505 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SimpleTaskSystem0726
+DEBUG 2017-07-26 23:47:31,779 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-07-26 23:47:31,815 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.SimpleTask.ITaskAppService' with service name 'app/task'.
+WARN  2017-07-26 23:47:36,714 [12   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2017-07-26 23:47:36,726 [12   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2017-07-26 23:49:43,173 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-07-26 23:49:43,383 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2017-07-26 23:49:43,387 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.Web.SimpleTaskSystem0726WebModule, SimpleTaskSystem0726.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-26 23:49:43,389 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-26 23:49:43,389 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-26 23:49:43,389 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-26 23:49:43,389 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-26 23:49:43,390 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726DataModule, SimpleTaskSystem0726.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-26 23:49:43,390 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-26 23:49:43,390 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726CoreModule, SimpleTaskSystem0726.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-26 23:49:43,390 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726ApplicationModule, SimpleTaskSystem0726.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-26 23:49:43,390 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726WebApiModule, SimpleTaskSystem0726.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-26 23:49:43,391 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-26 23:49:43,393 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2017-07-26 23:49:44,193 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: SimpleTaskSystem0726.EntityFramework.SimpleTaskSystem0726DbContext, SimpleTaskSystem0726.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-26 23:49:44,330 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2017-07-26 23:49:44,343 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-07-26 23:49:44,344 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-07-26 23:49:44,346 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SimpleTaskSystem0726
+DEBUG 2017-07-26 23:49:44,624 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-07-26 23:49:44,671 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.SimpleTask.ITaskAppService' with service name 'app/task'.
+WARN  2017-07-26 23:49:47,749 [11   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2017-07-26 23:49:47,793 [11   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2017-07-26 23:55:36,663 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-07-26 23:55:36,680 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2017-07-26 23:55:36,685 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.Web.SimpleTaskSystem0726WebModule, SimpleTaskSystem0726.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-26 23:55:36,687 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-26 23:55:36,687 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-26 23:55:36,687 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-26 23:55:36,687 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-26 23:55:36,687 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726DataModule, SimpleTaskSystem0726.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-26 23:55:36,688 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-26 23:55:36,688 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726CoreModule, SimpleTaskSystem0726.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-26 23:55:36,688 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726ApplicationModule, SimpleTaskSystem0726.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-26 23:55:36,688 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726WebApiModule, SimpleTaskSystem0726.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-26 23:55:36,688 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-26 23:55:36,691 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2017-07-26 23:55:36,953 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: SimpleTaskSystem0726.EntityFramework.SimpleTaskSystem0726DbContext, SimpleTaskSystem0726.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-26 23:55:37,791 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2017-07-26 23:55:37,801 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-07-26 23:55:37,802 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-07-26 23:55:37,804 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SimpleTaskSystem0726
+DEBUG 2017-07-26 23:55:38,052 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-07-26 23:55:38,091 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.SimpleTask.ITaskAppService' with service name 'app/task'.
+WARN  2017-07-26 23:55:43,053 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2017-07-26 23:55:43,077 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2017-07-28 17:42:37,368 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-07-28 17:42:37,434 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2017-07-28 17:42:37,444 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.Web.SimpleTaskSystem0726WebModule, SimpleTaskSystem0726.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-28 17:42:37,449 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-28 17:42:37,450 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-28 17:42:37,450 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-28 17:42:37,451 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-28 17:42:37,451 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726DataModule, SimpleTaskSystem0726.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-28 17:42:37,452 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-28 17:42:37,453 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726CoreModule, SimpleTaskSystem0726.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-28 17:42:37,453 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726ApplicationModule, SimpleTaskSystem0726.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-28 17:42:37,454 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726WebApiModule, SimpleTaskSystem0726.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-28 17:42:37,454 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-28 17:42:37,462 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2017-07-28 17:42:37,860 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: SimpleTaskSystem0726.EntityFramework.SimpleTaskSystem0726DbContext, SimpleTaskSystem0726.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-28 17:42:40,573 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2017-07-28 17:42:40,583 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-07-28 17:42:40,584 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-07-28 17:42:40,586 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SimpleTaskSystem0726
+DEBUG 2017-07-28 17:42:40,897 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-07-28 17:42:40,925 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.SimpleTask.ITaskAppService' with service name 'app/task'.
+WARN  2017-07-28 17:42:48,282 [10   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2017-07-28 17:42:48,291 [10   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2017-07-29 22:58:54,595 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-07-29 22:58:54,668 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2017-07-29 22:58:54,672 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.Web.SimpleTaskSystem0726WebModule, SimpleTaskSystem0726.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-29 22:58:54,674 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-29 22:58:54,674 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-29 22:58:54,674 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-29 22:58:54,674 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-29 22:58:54,675 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726DataModule, SimpleTaskSystem0726.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-29 22:58:54,675 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-29 22:58:54,675 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726CoreModule, SimpleTaskSystem0726.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-29 22:58:54,675 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726ApplicationModule, SimpleTaskSystem0726.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-29 22:58:54,675 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726WebApiModule, SimpleTaskSystem0726.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-29 22:58:54,675 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-29 22:58:54,689 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2017-07-29 22:58:55,085 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: SimpleTaskSystem0726.EntityFramework.SimpleTaskSystem0726DbContext, SimpleTaskSystem0726.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-29 22:58:57,021 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2017-07-29 22:58:57,030 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-07-29 22:58:57,031 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-07-29 22:58:57,097 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SimpleTaskSystem0726
+DEBUG 2017-07-29 22:58:57,377 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-07-29 22:58:57,404 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.SimpleTask.ITaskAppService' with service name 'app/task'.
+DEBUG 2017-07-29 22:58:57,405 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.People.IPersonAppService' with service name 'app/person'.
+WARN  2017-07-29 22:59:04,709 [11   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2017-07-29 22:59:04,719 [11   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2017-07-29 23:14:32,483 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-07-29 23:14:32,807 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2017-07-29 23:14:32,817 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.Web.SimpleTaskSystem0726WebModule, SimpleTaskSystem0726.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-29 23:14:32,820 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-29 23:14:32,821 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-29 23:14:32,821 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-29 23:14:32,822 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-29 23:14:32,822 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726DataModule, SimpleTaskSystem0726.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-29 23:14:32,823 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-29 23:14:32,823 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726CoreModule, SimpleTaskSystem0726.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-29 23:14:32,823 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726ApplicationModule, SimpleTaskSystem0726.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-29 23:14:32,824 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726WebApiModule, SimpleTaskSystem0726.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-29 23:14:32,824 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-29 23:14:32,828 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2017-07-29 23:14:33,835 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: SimpleTaskSystem0726.EntityFramework.SimpleTaskSystem0726DbContext, SimpleTaskSystem0726.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-29 23:14:34,135 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2017-07-29 23:14:34,143 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-07-29 23:14:34,144 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-07-29 23:14:34,146 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SimpleTaskSystem0726
+DEBUG 2017-07-29 23:14:34,343 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-07-29 23:14:34,395 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.SimpleTask.ITaskAppService' with service name 'app/task'.
+DEBUG 2017-07-29 23:14:34,396 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.People.IPersonAppService' with service name 'app/person'.
+WARN  2017-07-29 23:14:37,042 [12   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2017-07-29 23:14:37,055 [12   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2017-08-10 23:35:02,810 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-08-10 23:35:03,575 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2017-08-10 23:35:03,575 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.Web.SimpleTaskSystem0726WebModule, SimpleTaskSystem0726.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-10 23:35:03,575 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-10 23:35:03,575 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-10 23:35:03,575 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-10 23:35:03,575 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-10 23:35:03,575 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726DataModule, SimpleTaskSystem0726.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-10 23:35:03,575 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-10 23:35:03,575 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726CoreModule, SimpleTaskSystem0726.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-10 23:35:03,575 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726ApplicationModule, SimpleTaskSystem0726.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-10 23:35:03,575 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726WebApiModule, SimpleTaskSystem0726.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-10 23:35:03,575 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-10 23:35:03,591 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2017-08-10 23:35:05,294 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: SimpleTaskSystem0726.EntityFramework.SimpleTaskSystem0726DbContext, SimpleTaskSystem0726.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-10 23:35:05,700 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2017-08-10 23:35:05,716 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-08-10 23:35:05,716 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-08-10 23:35:05,779 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SimpleTaskSystem0726
+DEBUG 2017-08-10 23:35:06,122 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-08-10 23:35:06,232 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.SimpleTask.ITaskAppService' with service name 'app/task'.
+DEBUG 2017-08-10 23:35:06,232 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.People.IPersonAppService' with service name 'app/person'.
+WARN  2017-08-10 23:35:06,638 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2017-08-10 23:35:06,638 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2017-08-10 23:40:02,742 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-08-10 23:40:02,924 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2017-08-10 23:40:02,930 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.Web.SimpleTaskSystem0726WebModule, SimpleTaskSystem0726.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-10 23:40:02,933 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-10 23:40:02,933 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-10 23:40:02,933 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-10 23:40:02,933 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-10 23:40:02,933 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726DataModule, SimpleTaskSystem0726.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-10 23:40:02,934 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-10 23:40:02,934 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726CoreModule, SimpleTaskSystem0726.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-10 23:40:02,934 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726ApplicationModule, SimpleTaskSystem0726.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-10 23:40:02,934 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726WebApiModule, SimpleTaskSystem0726.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-10 23:40:02,934 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-10 23:40:02,937 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2017-08-10 23:40:03,613 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: SimpleTaskSystem0726.EntityFramework.SimpleTaskSystem0726DbContext, SimpleTaskSystem0726.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-10 23:40:03,791 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2017-08-10 23:40:03,799 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-08-10 23:40:03,800 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-08-10 23:40:03,802 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SimpleTaskSystem0726
+DEBUG 2017-08-10 23:40:03,993 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-08-10 23:40:04,037 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.SimpleTask.ITaskAppService' with service name 'app/task'.
+DEBUG 2017-08-10 23:40:04,038 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.People.IPersonAppService' with service name 'app/person'.
+WARN  2017-08-10 23:40:07,445 [11   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2017-08-10 23:40:07,453 [11   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2017-08-14 22:33:45,001 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-08-14 22:33:45,065 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2017-08-14 22:33:45,072 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.Web.SimpleTaskSystem0726WebModule, SimpleTaskSystem0726.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 22:33:45,074 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 22:33:45,074 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 22:33:45,074 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 22:33:45,074 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 22:33:45,074 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726DataModule, SimpleTaskSystem0726.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 22:33:45,075 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 22:33:45,075 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726CoreModule, SimpleTaskSystem0726.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 22:33:45,075 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726ApplicationModule, SimpleTaskSystem0726.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 22:33:45,075 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726WebApiModule, SimpleTaskSystem0726.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 22:33:45,075 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 22:33:45,079 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2017-08-14 22:33:45,584 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: SimpleTaskSystem0726.EntityFramework.SimpleTaskSystem0726DbContext, SimpleTaskSystem0726.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 22:33:47,751 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2017-08-14 22:33:47,762 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-08-14 22:33:47,763 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-08-14 22:33:47,824 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SimpleTaskSystem0726
+DEBUG 2017-08-14 22:33:48,122 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-08-14 22:33:48,148 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.SimpleTask.ITaskAppService' with service name 'app/task'.
+DEBUG 2017-08-14 22:33:48,149 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.People.IPersonAppService' with service name 'app/person'.
+WARN  2017-08-14 22:33:55,325 [10   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2017-08-14 22:33:55,342 [10   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2017-08-14 22:48:48,430 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-08-14 22:48:48,666 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2017-08-14 22:48:48,672 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.Web.SimpleTaskSystem0726WebModule, SimpleTaskSystem0726.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 22:48:48,675 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 22:48:48,675 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 22:48:48,676 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 22:48:48,676 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 22:48:48,676 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726DataModule, SimpleTaskSystem0726.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 22:48:48,677 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 22:48:48,677 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726CoreModule, SimpleTaskSystem0726.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 22:48:48,677 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726ApplicationModule, SimpleTaskSystem0726.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 22:48:48,677 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726WebApiModule, SimpleTaskSystem0726.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 22:48:48,677 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 22:48:48,682 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2017-08-14 22:48:49,390 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: SimpleTaskSystem0726.EntityFramework.SimpleTaskSystem0726DbContext, SimpleTaskSystem0726.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 22:48:49,590 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2017-08-14 22:48:49,599 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-08-14 22:48:49,600 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-08-14 22:48:49,601 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SimpleTaskSystem0726
+DEBUG 2017-08-14 22:48:49,902 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-08-14 22:48:49,967 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.SimpleTask.ITaskAppService' with service name 'app/task'.
+DEBUG 2017-08-14 22:48:49,969 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.People.IPersonAppService' with service name 'app/person'.
+WARN  2017-08-14 22:48:52,683 [12   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2017-08-14 22:48:52,701 [12   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2017-08-14 22:59:26,098 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-08-14 22:59:26,116 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2017-08-14 22:59:26,120 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.Web.SimpleTaskSystem0726WebModule, SimpleTaskSystem0726.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 22:59:26,122 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 22:59:26,122 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 22:59:26,123 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 22:59:26,123 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 22:59:26,123 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726DataModule, SimpleTaskSystem0726.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 22:59:26,123 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 22:59:26,123 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726CoreModule, SimpleTaskSystem0726.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 22:59:26,123 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726ApplicationModule, SimpleTaskSystem0726.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 22:59:26,123 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726WebApiModule, SimpleTaskSystem0726.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 22:59:26,124 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 22:59:26,126 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2017-08-14 22:59:26,420 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: SimpleTaskSystem0726.EntityFramework.SimpleTaskSystem0726DbContext, SimpleTaskSystem0726.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 22:59:27,465 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2017-08-14 22:59:27,476 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-08-14 22:59:27,477 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-08-14 22:59:27,481 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SimpleTaskSystem0726
+DEBUG 2017-08-14 22:59:27,644 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-08-14 22:59:27,684 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.SimpleTask.ITaskAppService' with service name 'tasksystem/task'.
+DEBUG 2017-08-14 22:59:27,685 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.People.IPersonAppService' with service name 'tasksystem/person'.
+WARN  2017-08-14 22:59:33,154 [12   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2017-08-14 22:59:33,175 [12   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+ERROR 2017-08-14 23:00:09,804 [14   ] nHandling.AbpApiExceptionFilterAttribute - Mapper not initialized. Call Initialize with appropriate configuration. If you are trying to use mapper instances through a container or otherwise, make sure you do not have any calls to the static Mapper.Map methods, and if you're using ProjectTo or UseAsDataSource extension methods, make sure you pass in the appropriate IConfigurationProvider instance.
+System.InvalidOperationException: Mapper not initialized. Call Initialize with appropriate configuration. If you are trying to use mapper instances through a container or otherwise, make sure you do not have any calls to the static Mapper.Map methods, and if you're using ProjectTo or UseAsDataSource extension methods, make sure you pass in the appropriate IConfigurationProvider instance.
+   在 AutoMapper.Mapper.get_Instance()
+   在 AutoMapper.Mapper.Map[TDestination](Object source)
+   在 Abp.AutoMapper.AutoMapExtensions.MapTo[TDestination](Object source)
+   在 SimpleTaskSystem.People.PersonAppService.<GetAllPeople>d__2.MoveNext() 位置 E:\WorkingFolder\Test\SimpleTaskSystem0726\SimpleTaskSystem0726.Application\People\PersonAppService.cs:行号 23
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Uow.AbpApiUowFilter.<ExecuteActionFilterAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__4.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__7.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+DEBUG 2017-08-14 23:10:14,238 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-08-14 23:10:14,256 [1    ] Abp.Modules.AbpModuleManager             - Found 11 ABP modules in total.
+DEBUG 2017-08-14 23:10:14,263 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.Web.SimpleTaskSystem0726WebModule, SimpleTaskSystem0726.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:10:14,264 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:10:14,265 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:10:14,265 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:10:14,265 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:10:14,265 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726DataModule, SimpleTaskSystem0726.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:10:14,265 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:10:14,265 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726CoreModule, SimpleTaskSystem0726.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:10:14,266 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726ApplicationModule, SimpleTaskSystem0726.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:10:14,266 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726WebApiModule, SimpleTaskSystem0726.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:10:14,266 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:10:14,269 [1    ] Abp.Modules.AbpModuleManager             - 11 modules loaded.
+DEBUG 2017-08-14 23:10:14,590 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: SimpleTaskSystem0726.EntityFramework.SimpleTaskSystem0726DbContext, SimpleTaskSystem0726.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:11:06,714 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-08-14 23:11:06,731 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2017-08-14 23:11:06,737 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.Web.SimpleTaskSystem0726WebModule, SimpleTaskSystem0726.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:11:06,738 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:11:06,739 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:11:06,739 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:11:06,739 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:11:06,739 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726DataModule, SimpleTaskSystem0726.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:11:06,739 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:11:06,739 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726CoreModule, SimpleTaskSystem0726.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:11:06,740 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726ApplicationModule, SimpleTaskSystem0726.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:11:06,740 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:11:06,740 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726WebApiModule, SimpleTaskSystem0726.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:11:06,740 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:11:06,745 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2017-08-14 23:11:07,102 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: SimpleTaskSystem0726.EntityFramework.SimpleTaskSystem0726DbContext, SimpleTaskSystem0726.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:11:08,227 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2017-08-14 23:11:08,236 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-08-14 23:11:08,237 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-08-14 23:11:08,239 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SimpleTaskSystem0726
+DEBUG 2017-08-14 23:11:08,422 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-08-14 23:11:08,491 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 1 classes define auto mapping attributes
+DEBUG 2017-08-14 23:11:08,491 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SimpleTaskSystem.People.Dtos.PersonDto
+DEBUG 2017-08-14 23:11:08,742 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.SimpleTask.ITaskAppService' with service name 'tasksystem/task'.
+DEBUG 2017-08-14 23:11:08,743 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.People.IPersonAppService' with service name 'tasksystem/person'.
+WARN  2017-08-14 23:11:14,864 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2017-08-14 23:11:14,881 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2017-08-14 23:23:19,145 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-08-14 23:23:19,332 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2017-08-14 23:23:19,344 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.Web.SimpleTaskSystem0726WebModule, SimpleTaskSystem0726.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:23:19,346 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:23:19,347 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:23:19,347 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:23:19,347 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:23:19,347 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726DataModule, SimpleTaskSystem0726.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:23:19,348 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:23:19,348 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726CoreModule, SimpleTaskSystem0726.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:23:19,348 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726ApplicationModule, SimpleTaskSystem0726.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:23:19,348 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:23:19,348 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726WebApiModule, SimpleTaskSystem0726.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:23:19,348 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:23:19,353 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2017-08-14 23:23:19,925 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: SimpleTaskSystem0726.EntityFramework.SimpleTaskSystem0726DbContext, SimpleTaskSystem0726.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:23:20,049 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2017-08-14 23:23:20,058 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-08-14 23:23:20,059 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-08-14 23:23:20,061 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SimpleTaskSystem0726
+DEBUG 2017-08-14 23:23:20,255 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-08-14 23:23:20,345 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 1 classes define auto mapping attributes
+DEBUG 2017-08-14 23:23:20,345 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SimpleTaskSystem.People.Dtos.PersonDto
+DEBUG 2017-08-14 23:23:20,513 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.SimpleTask.ITaskAppService' with service name 'tasksystem/task'.
+DEBUG 2017-08-14 23:23:20,514 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.People.IPersonAppService' with service name 'tasksystem/person'.
+WARN  2017-08-14 23:23:23,211 [13   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2017-08-14 23:23:23,230 [13   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2017-08-14 23:30:47,449 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-08-14 23:30:47,614 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2017-08-14 23:30:47,619 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.Web.SimpleTaskSystem0726WebModule, SimpleTaskSystem0726.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:30:47,621 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:30:47,621 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:30:47,621 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:30:47,621 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:30:47,622 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726DataModule, SimpleTaskSystem0726.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:30:47,622 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:30:47,622 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726CoreModule, SimpleTaskSystem0726.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:30:47,622 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726ApplicationModule, SimpleTaskSystem0726.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:30:47,623 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:30:47,623 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726WebApiModule, SimpleTaskSystem0726.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:30:47,623 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:30:47,625 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2017-08-14 23:30:48,288 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: SimpleTaskSystem0726.EntityFramework.SimpleTaskSystem0726DbContext, SimpleTaskSystem0726.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:30:48,434 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2017-08-14 23:30:48,449 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-08-14 23:30:48,451 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-08-14 23:30:48,453 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SimpleTaskSystem0726
+DEBUG 2017-08-14 23:30:48,677 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-08-14 23:30:48,760 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 1 classes define auto mapping attributes
+DEBUG 2017-08-14 23:30:48,760 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SimpleTaskSystem.People.Dtos.PersonDto
+DEBUG 2017-08-14 23:30:48,937 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.SimpleTask.ITaskAppService' with service name 'tasksystem/task'.
+DEBUG 2017-08-14 23:30:48,938 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.People.IPersonAppService' with service name 'tasksystem/person'.
+WARN  2017-08-14 23:30:51,564 [12   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2017-08-14 23:30:51,578 [12   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2017-08-14 23:34:48,733 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-08-14 23:34:48,884 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2017-08-14 23:34:48,889 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.Web.SimpleTaskSystem0726WebModule, SimpleTaskSystem0726.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:34:48,890 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:34:48,891 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:34:48,891 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:34:48,891 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:34:48,891 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726DataModule, SimpleTaskSystem0726.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:34:48,891 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:34:48,892 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726CoreModule, SimpleTaskSystem0726.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:34:48,892 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726ApplicationModule, SimpleTaskSystem0726.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:34:48,892 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:34:48,892 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726WebApiModule, SimpleTaskSystem0726.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:34:48,892 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:34:48,895 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2017-08-14 23:34:49,392 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: SimpleTaskSystem0726.EntityFramework.SimpleTaskSystem0726DbContext, SimpleTaskSystem0726.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:34:49,499 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2017-08-14 23:34:49,507 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-08-14 23:34:49,508 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-08-14 23:34:49,511 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SimpleTaskSystem0726
+DEBUG 2017-08-14 23:34:49,721 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-08-14 23:34:49,817 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 1 classes define auto mapping attributes
+DEBUG 2017-08-14 23:34:49,817 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SimpleTaskSystem.People.Dtos.PersonDto
+DEBUG 2017-08-14 23:34:49,979 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.SimpleTask.ITaskAppService' with service name 'tasksystem/task'.
+DEBUG 2017-08-14 23:34:49,980 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.People.IPersonAppService' with service name 'tasksystem/person'.
+DEBUG 2017-08-14 23:36:35,411 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-08-14 23:36:35,583 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2017-08-14 23:36:35,588 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.Web.SimpleTaskSystem0726WebModule, SimpleTaskSystem0726.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:36:35,591 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:36:35,591 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:36:35,592 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:36:35,592 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:36:35,592 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726DataModule, SimpleTaskSystem0726.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:36:35,593 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:36:35,593 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726CoreModule, SimpleTaskSystem0726.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:36:35,593 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726ApplicationModule, SimpleTaskSystem0726.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:36:35,593 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:36:35,594 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726WebApiModule, SimpleTaskSystem0726.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:36:35,594 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:36:35,597 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2017-08-14 23:36:36,097 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: SimpleTaskSystem0726.EntityFramework.SimpleTaskSystem0726DbContext, SimpleTaskSystem0726.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-14 23:36:36,203 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2017-08-14 23:36:36,212 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-08-14 23:36:36,213 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-08-14 23:36:36,215 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SimpleTaskSystem0726
+DEBUG 2017-08-14 23:36:36,392 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-08-14 23:36:36,472 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 1 classes define auto mapping attributes
+DEBUG 2017-08-14 23:36:36,472 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SimpleTaskSystem.People.Dtos.PersonDto
+DEBUG 2017-08-14 23:36:36,659 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.SimpleTask.ITaskAppService' with service name 'tasksystem/task'.
+DEBUG 2017-08-14 23:36:36,660 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.People.IPersonAppService' with service name 'tasksystem/person'.
+WARN  2017-08-14 23:36:46,563 [13   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2017-08-14 23:36:46,577 [13   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2017-08-15 23:08:42,762 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-08-15 23:08:42,840 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2017-08-15 23:08:42,855 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.Web.SimpleTaskSystem0726WebModule, SimpleTaskSystem0726.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-15 23:08:42,855 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-15 23:08:42,855 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-15 23:08:42,855 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-15 23:08:42,855 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-15 23:08:42,855 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726DataModule, SimpleTaskSystem0726.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-15 23:08:42,855 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-15 23:08:42,855 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726CoreModule, SimpleTaskSystem0726.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-15 23:08:42,855 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726ApplicationModule, SimpleTaskSystem0726.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-15 23:08:42,855 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-15 23:08:42,855 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726WebApiModule, SimpleTaskSystem0726.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-15 23:08:42,855 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-15 23:08:42,855 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2017-08-15 23:09:49,760 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-08-15 23:09:50,025 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2017-08-15 23:09:50,025 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.Web.SimpleTaskSystem0726WebModule, SimpleTaskSystem0726.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-15 23:09:50,025 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-15 23:09:50,025 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-15 23:09:50,025 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-15 23:09:50,025 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-15 23:09:50,056 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726DataModule, SimpleTaskSystem0726.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-15 23:09:50,056 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-15 23:09:50,056 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726CoreModule, SimpleTaskSystem0726.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-15 23:09:50,056 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726ApplicationModule, SimpleTaskSystem0726.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-15 23:09:50,056 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-15 23:09:50,056 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726WebApiModule, SimpleTaskSystem0726.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-15 23:09:50,056 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-15 23:09:50,056 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2017-08-15 23:09:51,119 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: SimpleTaskSystem0726.EntityFramework.SimpleTaskSystem0726DbContext, SimpleTaskSystem0726.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-15 23:09:56,228 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2017-08-15 23:09:56,228 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-08-15 23:09:56,228 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-08-15 23:09:56,291 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SimpleTaskSystem0726
+DEBUG 2017-08-15 23:09:56,697 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-08-15 23:09:56,822 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 1 classes define auto mapping attributes
+DEBUG 2017-08-15 23:09:56,822 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SimpleTaskSystem.People.Dtos.PersonDto
+DEBUG 2017-08-15 23:09:57,119 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.SimpleTask.ITaskAppService' with service name 'tasksystem/task'.
+DEBUG 2017-08-15 23:09:57,119 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.People.IPersonAppService' with service name 'tasksystem/person'.
+WARN  2017-08-15 23:10:06,494 [12   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2017-08-15 23:10:06,510 [12   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2017-08-16 00:07:21,877 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-08-16 00:07:22,721 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2017-08-16 00:07:22,721 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.Web.SimpleTaskSystem0726WebModule, SimpleTaskSystem0726.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-16 00:07:22,721 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-16 00:07:22,721 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-16 00:07:22,721 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-16 00:07:22,721 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-16 00:07:22,721 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726DataModule, SimpleTaskSystem0726.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-16 00:07:22,721 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-16 00:07:22,721 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726CoreModule, SimpleTaskSystem0726.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-16 00:07:22,721 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726ApplicationModule, SimpleTaskSystem0726.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-16 00:07:22,721 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-16 00:07:22,721 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726WebApiModule, SimpleTaskSystem0726.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-16 00:07:22,721 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-16 00:07:22,721 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2017-08-16 00:07:24,721 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: SimpleTaskSystem0726.EntityFramework.SimpleTaskSystem0726DbContext, SimpleTaskSystem0726.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-16 00:07:25,080 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2017-08-16 00:07:25,080 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-08-16 00:07:25,080 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-08-16 00:07:25,205 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SimpleTaskSystem0726
+DEBUG 2017-08-16 00:07:25,674 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-08-16 00:07:25,909 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 1 classes define auto mapping attributes
+DEBUG 2017-08-16 00:07:25,909 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SimpleTaskSystem.People.Dtos.PersonDto
+DEBUG 2017-08-16 00:07:26,112 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.SimpleTask.ITaskAppService' with service name 'tasksystem/task'.
+DEBUG 2017-08-16 00:07:26,112 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.People.IPersonAppService' with service name 'tasksystem/person'.
+WARN  2017-08-16 00:07:31,116 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2017-08-16 00:07:31,132 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2017-08-17 11:11:01,187 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-08-17 11:11:01,234 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2017-08-17 11:11:01,234 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.Web.SimpleTaskSystem0726WebModule, SimpleTaskSystem0726.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-17 11:11:01,234 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-17 11:11:01,234 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-17 11:11:01,234 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-17 11:11:01,234 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-17 11:11:01,234 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726DataModule, SimpleTaskSystem0726.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-17 11:11:01,234 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-17 11:11:01,234 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726CoreModule, SimpleTaskSystem0726.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-17 11:11:01,234 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726ApplicationModule, SimpleTaskSystem0726.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-17 11:11:01,234 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-17 11:11:01,234 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726WebApiModule, SimpleTaskSystem0726.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-17 11:11:01,234 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-17 11:11:01,234 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2017-08-17 11:11:01,546 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: SimpleTaskSystem0726.EntityFramework.SimpleTaskSystem0726DbContext, SimpleTaskSystem0726.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-17 11:11:02,671 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2017-08-17 11:11:02,671 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-08-17 11:11:02,671 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-08-17 11:11:02,749 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SimpleTaskSystem0726
+DEBUG 2017-08-17 11:11:02,952 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-08-17 11:11:03,031 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 1 classes define auto mapping attributes
+DEBUG 2017-08-17 11:11:03,031 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SimpleTaskSystem.People.Dtos.PersonDto
+DEBUG 2017-08-17 11:11:03,374 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.SimpleTask.ITaskAppService' with service name 'tasksystem/task'.
+DEBUG 2017-08-17 11:11:03,374 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.People.IPersonAppService' with service name 'tasksystem/person'.
+WARN  2017-08-17 11:11:14,963 [11   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2017-08-17 11:11:14,978 [11   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2017-08-17 23:30:41,192 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-08-17 23:30:43,255 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2017-08-17 23:30:43,255 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.Web.SimpleTaskSystem0726WebModule, SimpleTaskSystem0726.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-17 23:30:43,255 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-17 23:30:43,255 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-17 23:30:43,255 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-17 23:30:43,255 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-17 23:30:43,255 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726DataModule, SimpleTaskSystem0726.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-17 23:30:43,255 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-17 23:30:43,255 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726CoreModule, SimpleTaskSystem0726.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-17 23:30:43,255 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726ApplicationModule, SimpleTaskSystem0726.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-17 23:30:43,255 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-17 23:30:43,255 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726WebApiModule, SimpleTaskSystem0726.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-17 23:30:43,255 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-17 23:30:43,270 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2017-08-17 23:30:46,270 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: SimpleTaskSystem0726.EntityFramework.SimpleTaskSystem0726DbContext, SimpleTaskSystem0726.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-17 23:30:46,676 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2017-08-17 23:30:46,676 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-08-17 23:30:46,676 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-08-17 23:30:46,817 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SimpleTaskSystem0726
+DEBUG 2017-08-17 23:30:47,442 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-08-17 23:30:47,583 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 1 classes define auto mapping attributes
+DEBUG 2017-08-17 23:30:47,583 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SimpleTaskSystem.People.Dtos.PersonDto
+DEBUG 2017-08-17 23:30:47,911 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.SimpleTask.ITaskAppService' with service name 'tasksystem/task'.
+DEBUG 2017-08-17 23:30:47,911 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.People.IPersonAppService' with service name 'tasksystem/person'.
+WARN  2017-08-17 23:30:48,333 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2017-08-17 23:30:48,348 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2017-08-17 23:39:26,439 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-08-17 23:39:28,693 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2017-08-17 23:39:28,709 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.Web.SimpleTaskSystem0726WebModule, SimpleTaskSystem0726.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-17 23:39:28,709 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-17 23:39:28,709 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-17 23:39:28,709 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-17 23:39:28,709 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-17 23:39:28,709 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726DataModule, SimpleTaskSystem0726.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-17 23:39:28,709 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-17 23:39:28,709 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726CoreModule, SimpleTaskSystem0726.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-17 23:39:28,709 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726ApplicationModule, SimpleTaskSystem0726.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-17 23:39:28,709 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-17 23:39:28,709 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726WebApiModule, SimpleTaskSystem0726.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-17 23:39:28,709 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-17 23:39:28,724 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2017-08-17 23:39:33,645 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: SimpleTaskSystem0726.EntityFramework.SimpleTaskSystem0726DbContext, SimpleTaskSystem0726.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-17 23:39:34,004 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2017-08-17 23:39:34,035 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-08-17 23:39:34,035 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-08-17 23:39:34,105 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SimpleTaskSystem0726
+DEBUG 2017-08-17 23:39:34,999 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-08-17 23:39:35,183 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 1 classes define auto mapping attributes
+DEBUG 2017-08-17 23:39:35,183 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SimpleTaskSystem.People.Dtos.PersonDto
+DEBUG 2017-08-17 23:39:35,386 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.SimpleTask.ITaskAppService' with service name 'tasksystem/task'.
+DEBUG 2017-08-17 23:39:35,386 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.People.IPersonAppService' with service name 'tasksystem/person'.
+WARN  2017-08-17 23:39:40,353 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2017-08-17 23:39:40,369 [8    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2017-08-17 23:41:55,845 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-08-17 23:41:58,030 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2017-08-17 23:41:58,040 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.Web.SimpleTaskSystem0726WebModule, SimpleTaskSystem0726.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-17 23:41:58,043 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-17 23:41:58,044 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-17 23:41:58,044 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-17 23:41:58,044 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-17 23:41:58,044 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726DataModule, SimpleTaskSystem0726.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-17 23:41:58,045 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-17 23:41:58,045 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726CoreModule, SimpleTaskSystem0726.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-17 23:41:58,045 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726ApplicationModule, SimpleTaskSystem0726.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-17 23:41:58,046 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-17 23:41:58,046 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726WebApiModule, SimpleTaskSystem0726.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-17 23:41:58,046 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-17 23:41:58,050 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2017-08-17 23:42:03,504 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: SimpleTaskSystem0726.EntityFramework.SimpleTaskSystem0726DbContext, SimpleTaskSystem0726.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-17 23:42:03,814 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2017-08-17 23:42:03,824 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-08-17 23:42:03,825 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-08-17 23:42:03,893 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SimpleTaskSystem0726
+DEBUG 2017-08-17 23:42:04,323 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-08-17 23:42:04,453 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 1 classes define auto mapping attributes
+DEBUG 2017-08-17 23:42:04,453 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SimpleTaskSystem.People.Dtos.PersonDto
+DEBUG 2017-08-17 23:42:04,679 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.SimpleTask.ITaskAppService' with service name 'tasksystem/task'.
+DEBUG 2017-08-17 23:42:04,680 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.People.IPersonAppService' with service name 'tasksystem/person'.
+WARN  2017-08-17 23:42:09,584 [7    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2017-08-17 23:42:09,592 [7    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2017-08-17 23:44:48,163 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-08-17 23:44:49,959 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2017-08-17 23:44:49,964 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.Web.SimpleTaskSystem0726WebModule, SimpleTaskSystem0726.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-17 23:44:49,966 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-17 23:44:49,966 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-17 23:44:49,966 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-17 23:44:49,966 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-17 23:44:49,966 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726DataModule, SimpleTaskSystem0726.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-17 23:44:49,967 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-17 23:44:49,967 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726CoreModule, SimpleTaskSystem0726.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-17 23:44:49,967 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726ApplicationModule, SimpleTaskSystem0726.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-17 23:44:49,968 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-17 23:44:49,968 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726WebApiModule, SimpleTaskSystem0726.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-17 23:44:49,968 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-17 23:44:49,971 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2017-08-17 23:44:53,270 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: SimpleTaskSystem0726.EntityFramework.SimpleTaskSystem0726DbContext, SimpleTaskSystem0726.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-17 23:44:53,429 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2017-08-17 23:44:53,440 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-08-17 23:44:53,442 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-08-17 23:44:53,578 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SimpleTaskSystem0726
+DEBUG 2017-08-17 23:44:54,025 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-08-17 23:44:54,189 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 1 classes define auto mapping attributes
+DEBUG 2017-08-17 23:44:54,189 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SimpleTaskSystem.People.Dtos.PersonDto
+DEBUG 2017-08-17 23:44:54,391 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.SimpleTask.ITaskAppService' with service name 'tasksystem/task'.
+DEBUG 2017-08-17 23:44:54,392 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.People.IPersonAppService' with service name 'tasksystem/person'.
+WARN  2017-08-17 23:44:58,959 [11   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2017-08-17 23:44:58,976 [11   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+INFO  2017-08-17 23:50:04,271 [13   ] SimpleTaskSystem.Task.TaskAppService     - Creating a task for input:[CreateTaskInput > AssignedPersonId = 1, Description = 终于可以了]
+DEBUG 2017-08-18 00:22:17,680 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-08-18 00:22:20,094 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2017-08-18 00:22:20,102 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.Web.SimpleTaskSystem0726WebModule, SimpleTaskSystem0726.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 00:22:20,105 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 00:22:20,105 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 00:22:20,105 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 00:22:20,106 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 00:22:20,106 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726DataModule, SimpleTaskSystem0726.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 00:22:20,106 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 00:22:20,107 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726CoreModule, SimpleTaskSystem0726.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 00:22:20,107 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726ApplicationModule, SimpleTaskSystem0726.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 00:22:20,107 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 00:22:20,107 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726WebApiModule, SimpleTaskSystem0726.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 00:22:20,108 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 00:22:20,111 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2017-08-18 00:22:26,355 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: SimpleTaskSystem0726.EntityFramework.SimpleTaskSystem0726DbContext, SimpleTaskSystem0726.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 00:22:27,378 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2017-08-18 00:22:27,389 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-08-18 00:22:27,391 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-08-18 00:22:27,464 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SimpleTaskSystem0726
+DEBUG 2017-08-18 00:22:28,064 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-08-18 00:22:28,241 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 1 classes define auto mapping attributes
+DEBUG 2017-08-18 00:22:28,241 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SimpleTaskSystem.People.Dtos.PersonDto
+DEBUG 2017-08-18 00:22:28,499 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.SimpleTask.ITaskAppService' with service name 'tasksystem/task'.
+DEBUG 2017-08-18 00:22:28,500 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.People.IPersonAppService' with service name 'tasksystem/person'.
+WARN  2017-08-18 00:22:58,995 [14   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2017-08-18 00:22:59,004 [14   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2017-08-18 00:35:54,008 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-08-18 00:35:55,980 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2017-08-18 00:35:55,985 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.Web.SimpleTaskSystem0726WebModule, SimpleTaskSystem0726.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 00:35:55,987 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 00:35:55,987 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 00:35:55,988 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 00:35:55,988 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 00:35:55,988 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726DataModule, SimpleTaskSystem0726.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 00:35:55,989 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 00:35:55,989 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726CoreModule, SimpleTaskSystem0726.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 00:35:55,989 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726ApplicationModule, SimpleTaskSystem0726.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 00:35:55,989 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 00:35:55,989 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726WebApiModule, SimpleTaskSystem0726.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 00:35:55,989 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 00:35:55,994 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2017-08-18 00:36:00,818 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: SimpleTaskSystem0726.EntityFramework.SimpleTaskSystem0726DbContext, SimpleTaskSystem0726.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 00:36:01,157 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2017-08-18 00:36:01,173 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-08-18 00:36:01,175 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-08-18 00:36:01,178 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SimpleTaskSystem0726
+DEBUG 2017-08-18 00:36:01,658 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-08-18 00:36:01,906 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 1 classes define auto mapping attributes
+DEBUG 2017-08-18 00:36:01,906 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SimpleTaskSystem.People.Dtos.PersonDto
+DEBUG 2017-08-18 00:36:02,169 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.SimpleTask.ITaskAppService' with service name 'tasksystem/task'.
+DEBUG 2017-08-18 00:36:02,171 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.People.IPersonAppService' with service name 'tasksystem/person'.
+WARN  2017-08-18 00:36:06,378 [11   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2017-08-18 00:36:06,392 [11   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2017-08-18 22:09:48,867 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-08-18 22:09:49,273 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2017-08-18 22:09:49,289 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.Web.SimpleTaskSystem0726WebModule, SimpleTaskSystem0726.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 22:09:49,289 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 22:09:49,289 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 22:09:49,289 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 22:09:49,289 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 22:09:49,289 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726DataModule, SimpleTaskSystem0726.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 22:09:49,289 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 22:09:49,289 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726CoreModule, SimpleTaskSystem0726.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 22:09:49,289 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726ApplicationModule, SimpleTaskSystem0726.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 22:09:49,289 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 22:09:49,289 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726WebApiModule, SimpleTaskSystem0726.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 22:09:49,304 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 22:09:49,320 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2017-08-18 22:09:51,320 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: SimpleTaskSystem0726.EntityFramework.SimpleTaskSystem0726DbContext, SimpleTaskSystem0726.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 22:09:51,633 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2017-08-18 22:09:51,648 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-08-18 22:09:51,648 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-08-18 22:09:51,711 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SimpleTaskSystem0726
+DEBUG 2017-08-18 22:09:52,101 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-08-18 22:09:52,351 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 1 classes define auto mapping attributes
+DEBUG 2017-08-18 22:09:52,351 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SimpleTaskSystem.People.Dtos.PersonDto
+DEBUG 2017-08-18 22:09:52,601 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.SimpleTask.ITaskAppService' with service name 'tasksystem/task'.
+DEBUG 2017-08-18 22:09:52,601 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.People.IPersonAppService' with service name 'tasksystem/person'.
+WARN  2017-08-18 22:10:31,664 [9    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2017-08-18 22:10:31,679 [9    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2017-08-18 22:11:42,628 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-08-18 22:11:42,824 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2017-08-18 22:11:42,829 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.Web.SimpleTaskSystem0726WebModule, SimpleTaskSystem0726.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 22:11:42,830 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 22:11:42,830 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 22:11:42,831 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 22:11:42,831 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 22:11:42,831 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726DataModule, SimpleTaskSystem0726.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 22:11:42,831 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 22:11:42,831 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726CoreModule, SimpleTaskSystem0726.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 22:11:42,832 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726ApplicationModule, SimpleTaskSystem0726.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 22:11:42,832 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 22:11:42,832 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726WebApiModule, SimpleTaskSystem0726.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 22:11:42,832 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 22:11:42,834 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2017-08-18 22:11:43,750 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: SimpleTaskSystem0726.EntityFramework.SimpleTaskSystem0726DbContext, SimpleTaskSystem0726.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 22:11:44,089 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2017-08-18 22:11:44,098 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-08-18 22:11:44,099 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-08-18 22:11:44,102 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SimpleTaskSystem0726
+DEBUG 2017-08-18 22:11:44,316 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-08-18 22:11:44,410 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 1 classes define auto mapping attributes
+DEBUG 2017-08-18 22:11:44,410 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SimpleTaskSystem.People.Dtos.PersonDto
+DEBUG 2017-08-18 22:11:44,592 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.SimpleTask.ITaskAppService' with service name 'tasksystem/task'.
+DEBUG 2017-08-18 22:11:44,593 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.People.IPersonAppService' with service name 'tasksystem/person'.
+WARN  2017-08-18 22:11:52,480 [12   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2017-08-18 22:11:52,503 [12   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2017-08-18 22:17:31,598 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-08-18 22:17:31,766 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2017-08-18 22:17:31,772 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.Web.SimpleTaskSystem0726WebModule, SimpleTaskSystem0726.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 22:17:31,774 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 22:17:31,774 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 22:17:31,774 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 22:17:31,774 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 22:17:31,776 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726DataModule, SimpleTaskSystem0726.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 22:17:31,776 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 22:17:31,776 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726CoreModule, SimpleTaskSystem0726.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 22:17:31,776 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726ApplicationModule, SimpleTaskSystem0726.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 22:17:31,776 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 22:17:31,777 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726WebApiModule, SimpleTaskSystem0726.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 22:17:31,777 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 22:17:31,779 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2017-08-18 22:17:32,835 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: SimpleTaskSystem0726.EntityFramework.SimpleTaskSystem0726DbContext, SimpleTaskSystem0726.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 22:17:32,994 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2017-08-18 22:17:33,007 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-08-18 22:17:33,009 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-08-18 22:17:33,012 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SimpleTaskSystem0726
+DEBUG 2017-08-18 22:17:33,243 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-08-18 22:17:33,359 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 1 classes define auto mapping attributes
+DEBUG 2017-08-18 22:17:33,359 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SimpleTaskSystem.People.Dtos.PersonDto
+DEBUG 2017-08-18 22:17:33,584 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.SimpleTask.ITaskAppService' with service name 'tasksystem/task'.
+DEBUG 2017-08-18 22:17:33,586 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.People.IPersonAppService' with service name 'tasksystem/person'.
+WARN  2017-08-18 22:17:42,508 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2017-08-18 22:17:42,557 [6    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2017-08-18 23:07:13,697 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-08-18 23:07:13,850 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2017-08-18 23:07:13,856 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.Web.SimpleTaskSystem0726WebModule, SimpleTaskSystem0726.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 23:07:13,858 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 23:07:13,858 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 23:07:13,858 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 23:07:13,858 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 23:07:13,858 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726DataModule, SimpleTaskSystem0726.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 23:07:13,859 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 23:07:13,859 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726CoreModule, SimpleTaskSystem0726.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 23:07:13,859 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726ApplicationModule, SimpleTaskSystem0726.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 23:07:13,859 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 23:07:13,859 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726WebApiModule, SimpleTaskSystem0726.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 23:07:13,860 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 23:07:13,862 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2017-08-18 23:07:14,491 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: SimpleTaskSystem0726.EntityFramework.SimpleTaskSystem0726DbContext, SimpleTaskSystem0726.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-18 23:07:14,749 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2017-08-18 23:07:14,760 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-08-18 23:07:14,761 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-08-18 23:07:14,763 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SimpleTaskSystem0726
+DEBUG 2017-08-18 23:07:14,972 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-08-18 23:07:15,065 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 1 classes define auto mapping attributes
+DEBUG 2017-08-18 23:07:15,065 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SimpleTaskSystem.People.Dtos.PersonDto
+DEBUG 2017-08-18 23:07:15,251 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.SimpleTask.ITaskAppService' with service name 'tasksystem/task'.
+DEBUG 2017-08-18 23:07:15,252 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.People.IPersonAppService' with service name 'tasksystem/person'.
+WARN  2017-08-18 23:07:17,811 [12   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2017-08-18 23:07:17,826 [12   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+INFO  2017-08-18 23:10:37,138 [24   ] SimpleTaskSystem.Task.TaskAppService     - Updating a task for input:[UpdateTaskInput > TaskId = 1, AssignedPersonId = , State = Completed]
+INFO  2017-08-18 23:10:39,195 [9    ] SimpleTaskSystem.Task.TaskAppService     - Updating a task for input:[UpdateTaskInput > TaskId = 1, AssignedPersonId = , State = Active]
+INFO  2017-08-18 23:10:54,013 [26   ] SimpleTaskSystem.Task.TaskAppService     - Creating a task for input:[CreateTaskInput > AssignedPersonId = 4, Description = 修改好了]
+DEBUG 2017-08-20 12:06:18,377 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-08-20 12:06:18,445 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2017-08-20 12:06:18,450 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.Web.SimpleTaskSystem0726WebModule, SimpleTaskSystem0726.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-20 12:06:18,453 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-20 12:06:18,453 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-20 12:06:18,453 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-20 12:06:18,453 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-20 12:06:18,454 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726DataModule, SimpleTaskSystem0726.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-20 12:06:18,454 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-20 12:06:18,454 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726CoreModule, SimpleTaskSystem0726.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-20 12:06:18,454 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726ApplicationModule, SimpleTaskSystem0726.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-20 12:06:18,454 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-20 12:06:18,454 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726WebApiModule, SimpleTaskSystem0726.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-20 12:06:18,455 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-20 12:06:18,477 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2017-08-20 12:06:18,842 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: SimpleTaskSystem0726.EntityFramework.SimpleTaskSystem0726DbContext, SimpleTaskSystem0726.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-20 12:06:22,345 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2017-08-20 12:06:22,364 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-08-20 12:06:22,365 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-08-20 12:06:22,579 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SimpleTaskSystem0726
+DEBUG 2017-08-20 12:06:22,967 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-08-20 12:06:23,075 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 1 classes define auto mapping attributes
+DEBUG 2017-08-20 12:06:23,075 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SimpleTaskSystem.People.Dtos.PersonDto
+DEBUG 2017-08-20 12:06:23,393 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.SimpleTask.ITaskAppService' with service name 'tasksystem/task'.
+DEBUG 2017-08-20 12:06:23,394 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.People.IPersonAppService' with service name 'tasksystem/person'.
+WARN  2017-08-20 12:06:37,543 [14   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2017-08-20 12:06:37,562 [14   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+INFO  2017-08-20 12:07:18,168 [14   ] SimpleTaskSystem.Task.TaskAppService     - Creating a task for input:[CreateTaskInput > AssignedPersonId = 4, Description = momenfromNow]
+INFO  2017-08-20 12:07:30,510 [10   ] SimpleTaskSystem.Task.TaskAppService     - Updating a task for input:[UpdateTaskInput > TaskId = 3, AssignedPersonId = , State = Completed]
+DEBUG 2017-08-20 17:20:45,204 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-08-20 17:20:45,304 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2017-08-20 17:20:45,329 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.Web.SimpleTaskSystem0726WebModule, SimpleTaskSystem0726.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-20 17:20:45,333 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-20 17:20:45,333 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-20 17:20:45,333 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-20 17:20:45,333 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-20 17:20:45,334 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726DataModule, SimpleTaskSystem0726.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-20 17:20:45,334 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-20 17:20:45,334 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726CoreModule, SimpleTaskSystem0726.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-20 17:20:45,335 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726ApplicationModule, SimpleTaskSystem0726.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-20 17:20:45,335 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-20 17:20:45,335 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726WebApiModule, SimpleTaskSystem0726.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-20 17:20:45,335 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-20 17:20:45,341 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2017-08-20 17:20:45,906 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: SimpleTaskSystem0726.EntityFramework.SimpleTaskSystem0726DbContext, SimpleTaskSystem0726.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-20 17:20:48,484 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2017-08-20 17:20:48,496 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-08-20 17:20:48,497 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-08-20 17:20:48,549 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SimpleTaskSystem0726
+DEBUG 2017-08-20 17:20:48,962 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-08-20 17:20:49,093 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 1 classes define auto mapping attributes
+DEBUG 2017-08-20 17:20:49,093 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SimpleTaskSystem.People.Dtos.PersonDto
+DEBUG 2017-08-20 17:20:49,374 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.SimpleTask.ITaskAppService' with service name 'tasksystem/task'.
+DEBUG 2017-08-20 17:20:49,375 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.People.IPersonAppService' with service name 'tasksystem/person'.
+WARN  2017-08-20 17:20:57,949 [9    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2017-08-20 17:20:57,963 [9    ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+DEBUG 2017-08-20 18:24:25,012 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-08-20 18:24:25,189 [1    ] Abp.Modules.AbpModuleManager             - Found 12 ABP modules in total.
+DEBUG 2017-08-20 18:24:25,195 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.Web.SimpleTaskSystem0726WebModule, SimpleTaskSystem0726.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-20 18:24:25,198 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-20 18:24:25,198 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-20 18:24:25,198 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-20 18:24:25,198 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-20 18:24:25,198 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726DataModule, SimpleTaskSystem0726.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-20 18:24:25,199 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-20 18:24:25,199 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726CoreModule, SimpleTaskSystem0726.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-20 18:24:25,199 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726ApplicationModule, SimpleTaskSystem0726.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-20 18:24:25,199 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-20 18:24:25,200 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: SimpleTaskSystem0726.SimpleTaskSystem0726WebApiModule, SimpleTaskSystem0726.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-20 18:24:25,200 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-20 18:24:25,204 [1    ] Abp.Modules.AbpModuleManager             - 12 modules loaded.
+DEBUG 2017-08-20 18:24:26,426 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: SimpleTaskSystem0726.EntityFramework.SimpleTaskSystem0726DbContext, SimpleTaskSystem0726.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-20 18:24:31,643 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2017-08-20 18:24:31,653 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-08-20 18:24:31,654 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-08-20 18:24:31,752 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: SimpleTaskSystem0726
+DEBUG 2017-08-20 18:24:32,099 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-08-20 18:24:32,276 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 1 classes define auto mapping attributes
+DEBUG 2017-08-20 18:24:32,276 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - SimpleTaskSystem.People.Dtos.PersonDto
+DEBUG 2017-08-20 18:24:32,700 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.SimpleTask.ITaskAppService' with service name 'tasksystem/task'.
+DEBUG 2017-08-20 18:24:32,701 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'SimpleTaskSystem.People.IPersonAppService' with service name 'tasksystem/person'.
+WARN  2017-08-20 18:24:42,034 [10   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
+WARN  2017-08-20 18:24:42,048 [10   ] Abp.Logging.LogHelper                    - ISettingStore is not implemented, using DefaultConfigSettingStore which does not support GetAllListAsync.
